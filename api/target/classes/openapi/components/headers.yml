@@ -1,0 +1,19 @@
+Authorization:
+  description: Bearer token for authentication
+  schema:
+    type: string
+    example: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+
+X-Request-ID:
+  description: Unique request identifier
+  schema:
+    type: string
+    format: uuid
+    example: "123e4567-e89b-12d3-a456-426614174000"
+
+X-Correlation-ID:
+  description: Correlation ID for request tracing
+  schema:
+    type: string
+    format: uuid
+    example: "550e8400-e29b-41d4-a716-446655440000"

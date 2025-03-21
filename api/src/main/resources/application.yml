@@ -1,0 +1,11 @@
+api/src/main/resources/openapi/
+└── examples/
+    ├── requests/
+    │   ├── login-request.json
+    │   ├── create-user-request.json
+    │   └── update-user-request.json
+    └── responses/
+        ├── login-response.json
+        ├── user-response.json
+        ├── users-list-response.json
+        └── error-response.json
